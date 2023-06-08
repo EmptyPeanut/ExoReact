@@ -7,7 +7,6 @@ import Categorie from './components/Categorie';
 function App() {
   return (
     <div>
-      <h1>Mon Application</h1>
       <Navbar />
       <Categorie />
     </div>
