@@ -1,23 +1,26 @@
 import React from 'react'
 import './style.css';
+import { BlockVertData } from '../../models/BlockVert/BlockVertData';
 
-
-const BlockVert = () => {
+export type blockVertData = {
+    data: BlockVertData 
+}
+const BlockVert: React.FC<blockVertData> = ({data}) => {
   return (
     <div className='block-vert-container'>
         <div className='block-vert-content'>
-            <h1>Toujours plus pour les familles</h1>
+            <h1>{data.title}</h1>
             <div className='img-container'>
-                <img src="https://www.previssima.fr/files/previssima/images_redacteurs/dossiers2017/allocations-familiale.jpg" alt="" />
+                <img src={data.image} alt={data.image + ' image'} />
                 <div className='promo-container'>
-                    <span>15€</span>
-                    <span>10€</span>
-                    <span>La robe courte femme</span>
+                    <span>{data.previous_price}€</span>
+                    <span>{data.price}€</span>
+                    <span>{data.name}</span>
                 </div>
                 <div className='description-container'>
-                    <span>Le temps des robes !</span>
-                    <span>disponibles jusqu'au 4XL</span>
-                    <button><a>Les robes &gt;</a></button>
+                    <span>{data.description.first_line}</span>
+                    <span>{data.description.second_line}</span>
+                    <button><a>{data.description.cta} &gt;</a></button>
                 </div>
             </div>
         </div>
