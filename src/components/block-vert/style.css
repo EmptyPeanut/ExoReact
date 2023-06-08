@@ -15,15 +15,6 @@
     font-weight: bold;
 }
 
-.description-container button
-{
-    margin-top: 10px;
-    width: fit-content;
-    padding: 15px 15px;
-    border-radius: 10px;
-    border: solid 1px black;
-}
-
 .promo-container
 {
     display: flex;
