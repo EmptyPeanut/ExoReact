@@ -1,5 +1,5 @@
 import React from 'react'
-import BlockVert from '../components/blockVert/BlockVert';
+import BlockVert from '../components/block-vert/BlockVert';
 
 let blockVertData =
   {
@@ -7,7 +7,8 @@ let blockVertData =
     'image': 'https://www.previssima.fr/files/previssima/images_redacteurs/dossiers2017/allocations-familiale.jpg',
     'previous_price': 15,
     'price': 10,
-    'name': 'La robe courte femme',
+    'name': 'La robe courte',
+    'sex': 'femme',
     'description': {
       'first_line': 'Le temps des robes !',
       'second_line': 'disponibles jusqu\'au 4XL', 

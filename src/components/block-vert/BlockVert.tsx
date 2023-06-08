@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css';
-import { BlockVertData } from '../../models/BlockVert/BlockVertData';
+import { BlockVertData } from '../../models/block-vert/BlockVertData';
 
 export type blockVertData = {
     data: BlockVertData 
@@ -16,6 +16,7 @@ const BlockVert: React.FC<blockVertData> = ({data}) => {
                     <span>{data.previous_price}€</span>
                     <span>{data.price}€</span>
                     <span>{data.name}</span>
+                    <span>{data.sex}</span>
                 </div>
                 <div className='description-container'>
                     <span>{data.description.first_line}</span>
