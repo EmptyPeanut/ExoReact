@@ -15,26 +15,18 @@
     font-weight: bold;
 }
 
-.description-container button
-{
-    margin-top: 10px;
-    width: fit-content;
-    padding: 15px 15px;
-    border-radius: 10px;
-    border: solid 1px black;
-}
-
 .promo-container
 {
     display: flex;
     flex-direction: column;
     position: absolute;
-    right: 0;
+    right: 10px;
     top: 40%;
     background-color: rgb(80, 178, 114);
     color: white;
     padding: 15px;
     transform: translateY(-50%);
+    text-align: center;
 }
 
 .promo-container :nth-child(1)
@@ -42,18 +34,21 @@
     color: black;
     margin-bottom: -20px;
     font-size: 2rem;
+    text-align: start;
     text-decoration: line-through;
 }
 .promo-container :nth-child(2)
 {
     font-size: 5rem;
-    text-align: center;
 }
 .promo-container :nth-child(3)
 {
     font-weight: bold;
-    text-align: center;
-    margin: 10px 0px;
+}
+.promo-container :nth-child(4)
+{
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .block-vert-content{

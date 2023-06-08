@@ -6,5 +6,6 @@ export interface BlockVertData {
     previous_price: number;
     price:          number;
     name:           string;
+    sex:            string;
     description:    DescriptionData;
 }
