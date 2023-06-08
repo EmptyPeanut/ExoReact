@@ -1,7 +1,7 @@
 import React from 'react'
 import BlockVert from '../components/block-vert/BlockVert';
 import TripleBlock from '../components/triple-block/TripleBlock';
-import { BlockData } from '../models/triple-block/TripleBlockData';
+import { BlockData } from '../models/triple-block/BlockData';
 import { BlockVertData } from '../models/block-vert/BlockVertData';
 
 const blockVertData: BlockVertData =

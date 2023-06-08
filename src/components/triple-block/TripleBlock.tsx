@@ -1,5 +1,5 @@
 import React from 'react'
-import { BlockData } from '../../models/triple-block/TripleBlockData'
+import { BlockData } from '../../models/triple-block/BlockData'
 import Block from './Block'
 import './style.css';
 

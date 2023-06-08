@@ -1,5 +1,5 @@
 import React from 'react'
-import { BlockData } from '../../models/triple-block/TripleBlockData'
+import { BlockData } from '../../models/triple-block/BlockData'
 
 export type tripleBlockData = {
     data: BlockData
@@ -10,7 +10,7 @@ const Block: React.FC<tripleBlockData> = ({data}) => {
       <img src={data.image} alt={data.image + 'image'} />
       <h3>{data.name}</h3>
       <span>{data.description}</span>
-      <button className='cta-button'>{data.cta} &gt;</button>
+      <button className='cta-button'><a href='#'>{data.cta} &gt;</a></button>
     </div>
   )
 }

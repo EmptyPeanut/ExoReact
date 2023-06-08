@@ -6,7 +6,11 @@
     justify-content: center;
     margin: 40px 50px;
     gap: 10px;
-    
+}
+
+.triple-block-container .cta-button
+{
+    margin-top: 30px;
 }
 
 .triple-block-block
@@ -19,14 +23,10 @@
     padding-bottom: 30px;
 }
 
-.cta-button
-{
-    margin-top: 30px;
-}
 
 .triple-block-block img
 {
     object-fit: cover;
-    height: 500px;
+    height: 400px;
     width: 100%;
 }

@@ -21,7 +21,7 @@ const BlockVert: React.FC<blockVertData> = ({data}) => {
                 <div className='description-container'>
                     <span>{data.description.first_line}</span>
                     <span>{data.description.second_line}</span>
-                    <button className='cta-button'><a>{data.description.cta} &gt;</a></button>
+                    <button className='cta-button'><a href='#'>{data.description.cta} &gt;</a></button>
                 </div>
             </div>
         </div>
