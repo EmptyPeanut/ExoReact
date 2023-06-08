@@ -19,7 +19,7 @@
     font-size: 16px;
   }
   
-  button {
+  .monboutonnoir {
     margin-right: 10%;
     margin-left: 8px;
     padding: 8px 16px;
@@ -31,7 +31,7 @@
     cursor: pointer;
   }
   
-  button:hover {
+  .monboutonnoir:hover {
     background-color: #555;
   }
 

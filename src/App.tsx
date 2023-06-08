@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Categorie from './components/Categorie';
 import HomePage from './pages/HomePage';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Categorie />
       <HomePage/>
+      <Footer/>
     </>
   );
 }
