@@ -3,6 +3,8 @@ import BlockVert from '../components/block-vert/BlockVert';
 import TripleBlock from '../components/triple-block/TripleBlock';
 import { BlockData } from '../models/triple-block/BlockData';
 import { BlockVertData } from '../models/block-vert/BlockVertData';
+import ReassuranceList from '../components/reassurance-list/ReassuranceList';
+import { ReassuranceData } from '../models/reassurance/ReassuranceData';
 
 const blockVertData: BlockVertData =
   {
@@ -39,11 +41,39 @@ const tripleBlockData: BlockData[] = [
     'cta': 'Je shoppe'
   },
 ]
+
+const reassuranceData: ReassuranceData[] = [
+  {
+    'logo': '',
+    'title': 'Click & Collect',
+    'description': '"Trop pratique la e-réservation, merci pour ce service!!!"',
+    'date': '26/04/2023'
+  },
+  {
+    'logo': '',
+    'title': 'Paiement sécurisé',
+    'description': '"Merci beaucoup de votre système de payement en plusieurs fois qui facilite surtout quand il y a plusieurs enfants"',
+    'date': '14/12/2022'
+  },
+  {
+    'logo': '',
+    'title': 'Livraison',
+    'description': '"Trop pratique la e-réservation, merci pour ce service!!!"',
+    'date': '26/04/2023'
+  },
+  {
+    'logo': '',
+    'title': 'Retour facile',
+    'description': '"Trop pratique la e-réservation, merci pour ce service!!!"',
+    'date': '26/04/2023'
+  },
+]
 const HomePage = () => {
   return (
     <>
     <BlockVert data={blockVertData}/>
     <TripleBlock data={tripleBlockData}/>
+    <ReassuranceList data={reassuranceData}/>
     </>
   )
 }
